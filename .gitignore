@@ -1,0 +1,23 @@
+# output files, build artifacts
+build/
+*.dylib
+*.metallib
+*.o
+*.wav
+modular-audio
+modular-audio-debug
+test_dynamic
+test_metal
+
+# debug
+modular-audio-debug.dSYM
+
+# development tools; assume users are bringing their own.
+CLAUDE.md
+.claude/
+.idea/
+PLAN.md
+.vscode/
+
+# MacOS
+.DS_Store

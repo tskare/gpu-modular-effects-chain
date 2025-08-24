@@ -1,0 +1,47 @@
+{
+  "name": "Leslie",
+  "version": "0.1",
+  "description": "Tremolo (future Leslie) effect",
+  "author": "Demo",
+  "metalLibrary": "leslie.metallib",
+  "inputChannels": 1,
+  "outputChannels": 2,
+  "bufferHints": {
+    "preferredBufferSize": 4096,
+    "maxBufferSize": 16384,
+  },
+  "capabilities": {
+    "isGenerator": false,
+    "isEffect": true,
+    "supportsStereo": true,
+    "supportsVariableChannels": false,
+    "minSampleRate": 44100.0,
+    "maxSampleRate": 192000.0,
+    "tags": ["effect", "modulation", "spatial", "vintage", "leslie"]
+  },
+  "parameters": {
+    "horn_speed": {
+      "name": "Horn Speed",
+      "type": "float",
+      "defaultValue": 1.0,
+      "minValue": 0.0,
+      "maxValue": 1.0,
+      "enumValues": ["Slow", "Fast"]
+    },
+    "drum_speed": {
+      "name": "Drum Speed",
+      "type": "float",
+      "defaultValue": 1.0,
+      "minValue": 0.0,
+      "maxValue": 1.0,
+      "enumValues": ["Slow", "Fast"]
+    },
+    "wet_mix": {
+      "name": "Wet/Dry Mix",
+      "type": "float",
+      "defaultValue": 0.85,
+      "minValue": 0.0,
+      "maxValue": 1.0
+    }
+  }
+}

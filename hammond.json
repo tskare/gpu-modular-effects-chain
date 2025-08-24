@@ -1,0 +1,94 @@
+{
+  "name": "Hammond",
+  "version": "0.1 Demo",
+  "description": "Organ emulation (very basic) with parallel tonewheels",
+  "author": "Demo project",
+  "metalLibrary": "hammond.metallib",
+  "inputChannels": 0,
+  "outputChannels": 1,
+  "bufferHints": {
+    "preferredBufferSize": 8192,
+    "maxBufferSize": 32768,
+  },
+  "capabilities": {
+    "isGenerator": true,
+    "isEffect": false,
+    "supportsStereo": false,
+    "supportsVariableChannels": false,
+    "minSampleRate": 44100.0,
+    "maxSampleRate": 192000.0,
+    "tags": ["organ", "synthesis", "vintage", "tonewheel"]
+  },
+  "parameters": {
+    "drawbar_16": {
+      "name": "16",
+      "type": "float",
+      "defaultValue": 6.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_513": {
+      "name": "5 1/3",
+      "type": "float",
+      "defaultValue": 4.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_8": {
+      "name": "8",
+      "type": "float",
+      "defaultValue": 8.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_4": {
+      "name": "4",
+      "type": "float",
+      "defaultValue": 7.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_223": {
+      "name": "2 2/3",
+      "type": "float",
+      "defaultValue": 3.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_2": {
+      "name": "2",
+      "type": "float",
+      "defaultValue": 2.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_135": {
+      "name": "1 3/5",
+      "type": "float",
+      "defaultValue": 1.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_113": {
+      "name": "1 1/3",
+      "type": "float",
+      "defaultValue": 1.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "drawbar_1": {
+      "name": "1",
+      "type": "float",
+      "defaultValue": 0.0,
+      "minValue": 0.0,
+      "maxValue": 8.0
+    },
+    "amplitude": {
+      "name": "Gain",
+      "type": "float",
+      "defaultValue": 0.8,
+      "minValue": 0.0,
+      "maxValue": 1.0
+    }
+  }
+}
