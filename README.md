@@ -30,7 +30,7 @@ make run
 - `make test` - Build, run, and verify wav was generated
 - `make test-dynamic` - Test dynamic module loading functionality
 
-Note that `make clean && make run` will run the project in dynamic mode; to do this the dynamic metal libraries are marked as a dependency of the main target but
+Note that `make clean && make run` will run the project in dynamic mode; to do this the dynamic metal libraries are marked as a dependency of the main target but do not need to be; the goal is to have different modules built by different teams or even companies.
 
 ## Build Artifacts
 - `modular-audio` - Executable
